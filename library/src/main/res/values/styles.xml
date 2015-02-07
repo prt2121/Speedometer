@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <declare-styleable name="Speedometer">
+        <attr name="spd_maxSpeed" format="float" />
+        <attr name="spd_currentSpeed" format="float" />
+        <attr name="spd_onColor" format="color" />
+        <attr name="spd_offColor" format="color" />
+        <attr name="spd_scaleColor" format="color" />
+        <attr name="spd_scaleTextSize" format="dimension" />
+        <attr name="spd_readingTextSize" format="dimension" />
+        <attr name="spd_maxNumberScaleSteps" format="integer" />
+    </declare-styleable>
+
+
+</resources>
